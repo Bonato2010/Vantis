@@ -1,6 +1,6 @@
 # ====================================================================
 # .gitignore - VIAGEM / IAS Content Platform
-# Proteção estrita contra vazamento de credenciais, chaves e arquivos pesados
+# Proteção estrita contra vazamento de credenciais, chaves, bancos e arquivos pesados
 # ====================================================================
 
 # Credenciais e Segredos (NUNCA COMMITAR)
@@ -9,6 +9,7 @@ credentials/*.json
 *.token.json
 *secret*.json
 *.env*
+!.env.example
 .env
 .env.local
 
@@ -17,14 +18,31 @@ credentials/gdrive_token.json
 auth_log.txt
 *.log
 
-# Mídias e Arquivos Temporários de Vídeo/Áudio (Google Drive 5 TB é o repositório)
-workspace/downloads/*
+# Bancos de Dados Locais e Arquivos Temporários SQLite
+database/*.db
+database/*.db-wal
+database/*.db-shm
+database/*.db-journal
+database/*.sqlite
+database/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+
+# Mídias e Arquivos Temporários de Vídeo/Áudio (Google Drive 5 TB é o repositório oficial)
+workspace/downloads/
+workspace/downloads/**
 workspace/clips/*.mp4
 workspace/clips/*.wav
 workspace/clips/*.ass
+workspace/clips/*.json
 workspace/catalog_temp/*
+workspace/subs/*
+workspace/audio/*
 !workspace/downloads/.gitkeep
 !workspace/clips/.gitkeep
+!workspace/subs/.gitkeep
+!workspace/audio/.gitkeep
 
 # Python e Ambientes
 __pycache__/
@@ -38,9 +56,10 @@ venv/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Banco de dados local temporário (se recriável) ou backups
+# Arquivos Temporários e Backups
 *.bak
 *.tmp
+scratch/
 
 # IDEs e Editores
 .vscode/

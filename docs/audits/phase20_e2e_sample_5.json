@@ -1,0 +1,362 @@
+{
+  "sample_count": 5,
+  "results": [
+    {
+      "video_id": "gOiQ-zxR-cI",
+      "channel_id": 1,
+      "origin": "C:\\Users\\jcvse\\OneDrive\\Desktop\\Daniel\\CENTRAL SHORTS\\workspace\\downloads\\benchmark250\\ch_1\\gOiQ-zxR-cI.webm",
+      "initial_state": "QUEUED",
+      "db_processing_state": "editorial_analysis_complete",
+      "final_state": "COMPLETED",
+      "steps_executed": [
+        "media_acquired",
+        "integrity_verified",
+        "metadata_registered",
+        "audio_analyzed",
+        "transcribed",
+        "visual_and_scenes_analyzed",
+        "editorial_classified",
+        "features_extracted",
+        "recommendations_persisted",
+        "completed"
+      ],
+      "duration_seconds": 15.08,
+      "elapsed_seconds": 17.57,
+      "sha256": "0f06dfdae799854df9d1a9f2bb6724f17a20ddb4b85da8aabb483e451efd292e",
+      "integrated_lufs": -14.7,
+      "cuts_count": 0,
+      "transcript_word_count": 30,
+      "transcript_preview": "Olha a polêmica, a bola bate no braço, do Defensor do Palmeiras, dentro da área, o Vasco Pé de Penote, mas o Arbitroman ",
+      "editorial_features": {
+        "source_id": "gOiQ-zxR-cI",
+        "hook_type": "direct_command",
+        "time_to_first_relevant_event_sec": 0.5,
+        "cuts_count": 0,
+        "avg_cut_interval_sec": 0.0,
+        "has_narration": true,
+        "information_density_wps": 1.99,
+        "scene_variation_rate_per_min": 0.0,
+        "text_on_screen_detected": true,
+        "suspense_structure": true,
+        "narrative_progression": "complete_3_acts",
+        "explanation_clarity_score": 1.0,
+        "emotional_intensity": "calm_or_neutral",
+        "presentation_speed_wpm": 119.4,
+        "has_conclusion": true,
+        "audio_visual_relation": "narrated_continuous"
+      },
+      "editorial_recommendations": [
+        {
+          "knowledge_id": 106,
+          "channel_id": 1,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "estrutura_narrativa_real",
+          "recommendation": "Narração presente, alinhada à regra validada ID 106.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        },
+        {
+          "knowledge_id": 104,
+          "channel_id": 1,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "ritmo_de_cortes_dinamico",
+          "recommendation": "Aumentar cortes dinâmicos (>=4; atual=0) conforme regra validada ID 104.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        }
+      ],
+      "errors": []
+    },
+    {
+      "video_id": "trGLO7bU_Ag",
+      "channel_id": 2,
+      "origin": "C:\\Users\\jcvse\\OneDrive\\Desktop\\Daniel\\CENTRAL SHORTS\\workspace\\downloads\\benchmark250\\ch_2\\trGLO7bU_Ag.mkv",
+      "initial_state": "QUEUED",
+      "db_processing_state": "editorial_analysis_complete",
+      "final_state": "COMPLETED",
+      "steps_executed": [
+        "media_acquired",
+        "integrity_verified",
+        "metadata_registered",
+        "audio_analyzed",
+        "transcribed",
+        "visual_and_scenes_analyzed",
+        "editorial_classified",
+        "features_extracted",
+        "recommendations_persisted",
+        "completed"
+      ],
+      "duration_seconds": 24.6,
+      "elapsed_seconds": 9.09,
+      "sha256": "a0a53387e9d7e4be69d302404b616dbb54230ada0eb51f88eda0afe1d2086ca0",
+      "integrated_lufs": -9.5,
+      "cuts_count": 12,
+      "transcript_word_count": 0,
+      "transcript_preview": "",
+      "editorial_features": {
+        "source_id": "trGLO7bU_Ag",
+        "hook_type": "NOT_AVAILABLE",
+        "time_to_first_relevant_event_sec": 2.9,
+        "cuts_count": 12,
+        "avg_cut_interval_sec": 1.89,
+        "has_narration": false,
+        "information_density_wps": "NOT_AVAILABLE",
+        "scene_variation_rate_per_min": 29.3,
+        "text_on_screen_detected": true,
+        "suspense_structure": "NOT_AVAILABLE",
+        "narrative_progression": "NOT_AVAILABLE",
+        "explanation_clarity_score": "NOT_AVAILABLE",
+        "emotional_intensity": "calm_or_neutral",
+        "presentation_speed_wpm": "NOT_AVAILABLE",
+        "has_conclusion": "NOT_AVAILABLE",
+        "audio_visual_relation": "music_or_sfx_without_narration"
+      },
+      "editorial_recommendations": [
+        {
+          "knowledge_id": 139,
+          "channel_id": 2,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "ritmo_de_cortes_dinamico",
+          "recommendation": "Ritmo de cortes (12) alinhado à regra validada ID 139.",
+          "evidence_count": 15,
+          "counterexamples_count": 15
+        },
+        {
+          "knowledge_id": 111,
+          "channel_id": 2,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "estrutura_narrativa_real",
+          "recommendation": "Adicionar narração falada estruturada conforme regra validada ID 111.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        },
+        {
+          "knowledge_id": 109,
+          "channel_id": 2,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "ritmo_de_cortes_dinamico",
+          "recommendation": "Ritmo de cortes (12) alinhado à regra validada ID 109.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        }
+      ],
+      "errors": []
+    },
+    {
+      "video_id": "eRzdJRCogoo",
+      "channel_id": 3,
+      "origin": "C:\\Users\\jcvse\\OneDrive\\Desktop\\Daniel\\CENTRAL SHORTS\\workspace\\downloads\\benchmark250\\ch_3\\eRzdJRCogoo.mkv",
+      "initial_state": "QUEUED",
+      "db_processing_state": "editorial_analysis_complete",
+      "final_state": "COMPLETED",
+      "steps_executed": [
+        "media_acquired",
+        "integrity_verified",
+        "metadata_registered",
+        "audio_analyzed",
+        "transcribed",
+        "visual_and_scenes_analyzed",
+        "editorial_classified",
+        "features_extracted",
+        "recommendations_persisted",
+        "completed"
+      ],
+      "duration_seconds": 14.36,
+      "elapsed_seconds": 13.95,
+      "sha256": "8ec82bf4a18fb2a5eb92b2bb77fa0b543674e329d8b4c2cf7bc14d8b67163491",
+      "integrated_lufs": -34.5,
+      "cuts_count": 1,
+      "transcript_word_count": 16,
+      "transcript_preview": "que tu veia pressionamento para que possamos caminhar a livristo pra posse do que nos cabe",
+      "editorial_features": {
+        "source_id": "eRzdJRCogoo",
+        "hook_type": "direct_statement_hook",
+        "time_to_first_relevant_event_sec": 2.86,
+        "cuts_count": 1,
+        "avg_cut_interval_sec": 7.15,
+        "has_narration": true,
+        "information_density_wps": 1.11,
+        "scene_variation_rate_per_min": 4.2,
+        "text_on_screen_detected": true,
+        "suspense_structure": false,
+        "narrative_progression": "opening_and_development",
+        "explanation_clarity_score": 1.0,
+        "emotional_intensity": "moderate",
+        "presentation_speed_wpm": 66.8,
+        "has_conclusion": false,
+        "audio_visual_relation": "narrated_continuous"
+      },
+      "editorial_recommendations": [
+        {
+          "knowledge_id": 154,
+          "channel_id": 3,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "progressao_narrativa_completa",
+          "recommendation": "Completar progressão em 3 atos (abertura, desenvolvimento, conclusão) conforme ID 154.",
+          "evidence_count": 10,
+          "counterexamples_count": 9
+        },
+        {
+          "knowledge_id": 114,
+          "channel_id": 3,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "ritmo_de_cortes_dinamico",
+          "recommendation": "Aumentar cortes dinâmicos (>=4; atual=1) conforme regra validada ID 114.",
+          "evidence_count": 4,
+          "counterexamples_count": 2
+        }
+      ],
+      "errors": []
+    },
+    {
+      "video_id": "Nh7-_7grN4I",
+      "channel_id": 4,
+      "origin": "C:\\Users\\jcvse\\OneDrive\\Desktop\\Daniel\\CENTRAL SHORTS\\workspace\\downloads\\benchmark250\\ch_4\\Nh7-_7grN4I.webm",
+      "initial_state": "QUEUED",
+      "db_processing_state": "editorial_analysis_complete",
+      "final_state": "COMPLETED",
+      "steps_executed": [
+        "media_acquired",
+        "integrity_verified",
+        "metadata_registered",
+        "audio_analyzed",
+        "transcribed",
+        "visual_and_scenes_analyzed",
+        "editorial_classified",
+        "features_extracted",
+        "recommendations_persisted",
+        "completed"
+      ],
+      "duration_seconds": 56.0,
+      "elapsed_seconds": 22.32,
+      "sha256": "e9941cd279850e14f97cd2d70eab6e1e68c0b6c90c8d2999f3880afffbcaa3db",
+      "integrated_lufs": -24.1,
+      "cuts_count": 3,
+      "transcript_word_count": 92,
+      "transcript_preview": "Imagina acordar em um planeta onde um dia demora mais para passar do que um ano inteiro. Parece impossível? Um dia em vi",
+      "editorial_features": {
+        "source_id": "Nh7-_7grN4I",
+        "hook_type": "question",
+        "time_to_first_relevant_event_sec": 26.4,
+        "cuts_count": 3,
+        "avg_cut_interval_sec": 13.99,
+        "has_narration": true,
+        "information_density_wps": 1.64,
+        "scene_variation_rate_per_min": 3.2,
+        "text_on_screen_detected": true,
+        "suspense_structure": false,
+        "narrative_progression": "complete_3_acts",
+        "explanation_clarity_score": 1.0,
+        "emotional_intensity": "high",
+        "presentation_speed_wpm": 98.6,
+        "has_conclusion": true,
+        "audio_visual_relation": "narrated_continuous"
+      },
+      "editorial_recommendations": [
+        {
+          "knowledge_id": 121,
+          "channel_id": 4,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "estrutura_narrativa_real",
+          "recommendation": "Narração presente, alinhada à regra validada ID 121.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        },
+        {
+          "knowledge_id": 119,
+          "channel_id": 4,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "ritmo_de_cortes_dinamico",
+          "recommendation": "Aumentar cortes dinâmicos (>=4; atual=3) conforme regra validada ID 119.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        }
+      ],
+      "errors": []
+    },
+    {
+      "video_id": "_uKwxIkTOvo",
+      "channel_id": 5,
+      "origin": "C:\\Users\\jcvse\\OneDrive\\Desktop\\Daniel\\CENTRAL SHORTS\\workspace\\downloads\\benchmark250\\ch_5\\_uKwxIkTOvo.webm",
+      "initial_state": "QUEUED",
+      "db_processing_state": "editorial_analysis_complete",
+      "final_state": "COMPLETED",
+      "steps_executed": [
+        "media_acquired",
+        "integrity_verified",
+        "metadata_registered",
+        "audio_analyzed",
+        "transcribed",
+        "visual_and_scenes_analyzed",
+        "editorial_classified",
+        "features_extracted",
+        "recommendations_persisted",
+        "completed"
+      ],
+      "duration_seconds": 33.86,
+      "elapsed_seconds": 32.18,
+      "sha256": "bbf5a2426c29631fa89599f5ea017667f7fc70a0a6507528191f8310ca2ab669",
+      "integrated_lufs": -26.5,
+      "cuts_count": 7,
+      "transcript_word_count": 86,
+      "transcript_preview": "Stop waiting for motivation to strike. Marcus or Relyus wrote that the obstacle in the path becomes the path. Discipline",
+      "editorial_features": {
+        "source_id": "_uKwxIkTOvo",
+        "hook_type": "imperative_hook",
+        "time_to_first_relevant_event_sec": 1.9,
+        "cuts_count": 7,
+        "avg_cut_interval_sec": 4.23,
+        "has_narration": true,
+        "information_density_wps": 2.54,
+        "scene_variation_rate_per_min": 12.4,
+        "text_on_screen_detected": true,
+        "suspense_structure": true,
+        "narrative_progression": "complete_3_acts",
+        "explanation_clarity_score": 1.0,
+        "emotional_intensity": "calm_or_neutral",
+        "presentation_speed_wpm": 152.4,
+        "has_conclusion": true,
+        "audio_visual_relation": "narrated_dynamic_cuts"
+      },
+      "editorial_recommendations": [
+        {
+          "knowledge_id": 146,
+          "channel_id": 5,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "estrutura_narrativa_real",
+          "recommendation": "Narração presente, alinhada à regra validada ID 146.",
+          "evidence_count": 15,
+          "counterexamples_count": 15
+        },
+        {
+          "knowledge_id": 159,
+          "channel_id": 5,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "gancho_inicial_forte",
+          "recommendation": "Reforçar gancho inicial (pergunta/curiosidade) conforme regra validada ID 159.",
+          "evidence_count": 6,
+          "counterexamples_count": 15
+        },
+        {
+          "knowledge_id": 125,
+          "channel_id": 5,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "estrutura_narrativa_real",
+          "recommendation": "Narração presente, alinhada à regra validada ID 125.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        },
+        {
+          "knowledge_id": 123,
+          "channel_id": 5,
+          "classification": "APRENDIZADO_VALIDADO",
+          "knowledge_type": "ritmo_de_cortes_dinamico",
+          "recommendation": "Ritmo de cortes (7) alinhado à regra validada ID 123.",
+          "evidence_count": 6,
+          "counterexamples_count": 2
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

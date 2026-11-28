@@ -1,0 +1,156 @@
+{
+  "1": {
+    "channel_id": 1,
+    "channel_name": "Canal 01 - Futebol em 60 Segundos",
+    "acquired_count": 4,
+    "missing_count": 2,
+    "classification": "ASSETS_INCOMPLETE",
+    "quality_score": 88.9,
+    "acquired": [
+      {
+        "scene": 2,
+        "asset_id": 9,
+        "name": "Fifth Third Stadium at Night.jpg",
+        "license": "VERIFIED_CC_BY"
+      },
+      {
+        "scene": 4,
+        "asset_id": 10,
+        "name": "221000 - Football David Barber action - 3b - Sydney 2000 match photo.jpg",
+        "license": "VERIFIED_CC_BY"
+      },
+      {
+        "scene": 5,
+        "asset_id": 11,
+        "name": "Goalkeeper through the soccer goal net (Unsplash).jpg",
+        "license": "VERIFIED_CC0"
+      },
+      {
+        "scene": 6,
+        "asset_id": 12,
+        "name": "Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+        "license": "VERIFIED_CC_BY"
+      }
+    ],
+    "missing": [
+      {
+        "scene": 1,
+        "query": "soccer referee offside pitch"
+      },
+      {
+        "scene": 3,
+        "query": "soccer ball penalty spot"
+      }
+    ]
+  },
+  "3": {
+    "channel_id": 2,
+    "channel_name": "Canal 02 - Arquivo Sombrio (Casos Reais)",
+    "acquired_count": 2,
+    "missing_count": 4,
+    "classification": "ASSETS_INCOMPLETE",
+    "quality_score": 88.9,
+    "acquired": [
+      {
+        "scene": 2,
+        "asset_id": 13,
+        "name": "NYPD Crime Scene Tape.jpg",
+        "license": "VERIFIED_CC_BY"
+      },
+      {
+        "scene": 3,
+        "asset_id": 14,
+        "name": "Forensic Barnstar.png",
+        "license": "VERIFIED_CC_BY"
+      }
+    ],
+    "missing": [
+      {
+        "scene": 1,
+        "query": "forensic investigation clock evidence"
+      },
+      {
+        "scene": 4,
+        "query": "vintage pocket watch timeline"
+      },
+      {
+        "scene": 5,
+        "query": "courtroom gavel documents"
+      },
+      {
+        "scene": 6,
+        "query": "dark archive files folders"
+      }
+    ]
+  },
+  "5": {
+    "channel_id": 3,
+    "channel_name": "Canal 03 - Rir para Não Chorar",
+    "acquired_count": 0,
+    "missing_count": 6,
+    "classification": "ASSETS_INCOMPLETE",
+    "quality_score": 88.9,
+    "acquired": [],
+    "missing": [
+      {
+        "scene": 1,
+        "query": "video call laptop meeting"
+      },
+      {
+        "scene": 2,
+        "query": "bored office worker meeting"
+      },
+      {
+        "scene": 3,
+        "query": "coffee mug laptop desk"
+      },
+      {
+        "scene": 4,
+        "query": "wall clock office afternoon"
+      },
+      {
+        "scene": 5,
+        "query": "messy desk sticky notes"
+      },
+      {
+        "scene": 6,
+        "query": "tired person laptop"
+      }
+    ]
+  },
+  "9": {
+    "channel_id": 5,
+    "channel_name": "Canal 05 - Mente Focada & Produtividade",
+    "acquired_count": 0,
+    "missing_count": 6,
+    "classification": "ASSETS_INCOMPLETE",
+    "quality_score": 88.9,
+    "acquired": [],
+    "missing": [
+      {
+        "scene": 1,
+        "query": "minimalist desk notebook pen"
+      },
+      {
+        "scene": 2,
+        "query": "checklist paper pen"
+      },
+      {
+        "scene": 3,
+        "query": "hourglass timer desk"
+      },
+      {
+        "scene": 4,
+        "query": "focused person laptop desk"
+      },
+      {
+        "scene": 5,
+        "query": "clean workspace notebook"
+      },
+      {
+        "scene": 6,
+        "query": "kitchen timer desk"
+      }
+    ]
+  }
+}

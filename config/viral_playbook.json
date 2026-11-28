@@ -1,26 +1,484 @@
 {
   "version": "1.0",
-  "total_learned_patterns": 0,
+  "total_learned_patterns": 40,
   "archetypes": {
     "humor_zoeira": {
       "description": "Quebra de expectativa rápida, reações cômicas, situações absurdas e piadas de timing seco.",
-      "hook_rules": ["Começar imediatamente com a fala mais absurda ou a risada de reação.", "Sem introdução."],
+      "hook_rules": [
+        "Começar imediatamente com a fala mais absurda ou a risada de reação.",
+        "Sem introdução."
+      ],
       "examples": []
     },
     "treta_polemica": {
       "description": "Debates quentes, opiniões impopulares e confrontos que geram discussões acaloradas nos comentários.",
-      "hook_rules": ["Começar com afirmação controversa nos primeiros 2 segundos.", "Usar títulos provocativos."],
+      "hook_rules": [
+        "Começar com afirmação controversa nos primeiros 2 segundos.",
+        "Usar títulos provocativos."
+      ],
       "examples": []
     },
     "storytelling_revelacao": {
       "description": "Histórias pessoais dramáticas, reviravoltas e fatos curiosos que prendem a atenção até o desfecho.",
-      "hook_rules": ["Criar um 'loop aberto' na primeira frase: 'O dia que quase deu tudo errado...'.", "Desfecho surpreendente."],
+      "hook_rules": [
+        "Criar um 'loop aberto' na primeira frase: 'O dia que quase deu tudo errado...'.",
+        "Desfecho surpreendente."
+      ],
       "examples": []
     },
     "insight_mentalidade": {
       "description": "Dicas práticas, conselhos de vida, negócios ou reflexões que geram salvamentos e compartilhamentos.",
-      "hook_rules": ["Promessa direta de valor: 'A regra que mudou meu resultado'.", "Conclusão objetiva."],
+      "hook_rules": [
+        "Promessa direta de valor: 'A regra que mudou meu resultado'.",
+        "Conclusão objetiva."
+      ],
       "examples": []
     }
-  }
+  },
+  "hypotheses": [
+    {
+      "node_id": 1,
+      "evidence_video_id": "27fC40Knnsg",
+      "url": "https://www.youtube.com/shorts/27fC40Knnsg",
+      "title": "Neymar vs Coritiba (18/11/2026)",
+      "niche": "futebol_outros",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Autoriza<00:00:15.100><c> o</c><00:00:15.200><c> árbitro</c><00:00:15.700><c> para</c><00:00:16.000><c> rolando</c><00:00:16.500><c> para</c> Autoriza o árbitro para rolando",
+      "triggers": []
+    },
+    {
+      "node_id": 2,
+      "evidence_video_id": "LKJalv-r8Ls",
+      "url": "https://www.youtube.com/shorts/LKJalv-r8Ls",
+      "title": "MELHORES MOMENTOS BRASIL X CROACIA!#futebol #selecaobrasileira #brasil #futbol #copadobrasil #short",
+      "niche": "futebol_outros",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 3,
+      "evidence_video_id": "scXQqauEh7o",
+      "url": "https://www.youtube.com/shorts/scXQqauEh7o",
+      "title": "That Goal ☠️ #football #edit #futebol #championsleague #brasil #goals #shorts #viralvideo #brazil",
+      "niche": "futebol_outros",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 4,
+      "evidence_video_id": "W1lioVHldy0",
+      "url": "https://www.youtube.com/shorts/W1lioVHldy0",
+      "title": "♫ 7x0 - BRASIL ATROPELA A PODEROSA SINGAPURA | Paródia Toxic - Britney Spears",
+      "niche": "futebol_outros",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Me<00:00:04.000><c> lembrou</c><00:00:04.400><c> Brasil</c><00:00:05.239><c> [música]</c><00:00:05.600><c> de</c><00:00:05.800><c> setenta,</c> Me lembrou Brasil [música] de",
+      "triggers": []
+    },
+    {
+      "node_id": 5,
+      "evidence_video_id": "P9KsKuoYTxQ",
+      "url": "https://www.youtube.com/shorts/P9KsKuoYTxQ",
+      "title": "SOMENTE OS GOLS! BRASIL X PANAMA 6X2 - MELHORES MOMENTOS #football #shorts #futebol #worldcup",
+      "niche": "futebol_outros",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Melhores<00:00:00.440><c> momentos</c><00:00:00.960><c> aí</c><00:00:01.080><c> do</c><00:00:01.200><c> jogo</c><00:00:01.480><c> de</c><00:00:01.600><c> hoje</c> Melhores momentos aí do",
+      "triggers": []
+    },
+    {
+      "node_id": 6,
+      "evidence_video_id": "BwRoN2zW8P8",
+      "url": "https://www.youtube.com/shorts/BwRoN2zW8P8",
+      "title": "5 CASOS CHOCANTES QUE MARCARAM A HISTÓRIA DO BRASIL | Compilado",
+      "niche": "casos_policiais",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: en From <00:00:04.780><c>colonial </c><00:00:05.360><c>times </c><00:00:05.940><c>to </c><00:00:06.520><c>the</c> From colonial times to the From",
+      "triggers": []
+    },
+    {
+      "node_id": 7,
+      "evidence_video_id": "Mdt5Cm6ZXS4",
+      "url": "https://www.youtube.com/shorts/Mdt5Cm6ZXS4",
+      "title": "OS CASOS QUE O BRASIL NÃO CONSEGUIU ESQUECER EM 2025",
+      "niche": "casos_policiais",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt-BR Desde os tempos coloniais até os dias&nbsp; atuais, o Brasil vem",
+      "triggers": []
+    },
+    {
+      "node_id": 8,
+      "evidence_video_id": "-Wq0f7kWGN4",
+      "url": "https://www.youtube.com/shorts/-Wq0f7kWGN4",
+      "title": "MISTÉRIOS NÃO SOLUCIONADOS DA TAILÂNDIA",
+      "niche": "casos_policiais",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Uma<00:00:00.359><c> jovem</c><00:00:00.719><c> de</c><00:00:01.000><c> 23</c><00:00:01.680><c> anos</c><00:00:02.360><c> viaja</c><00:00:02.840><c> para</c><00:00:03.040><c> o</c><00:00:03.240><c> outro</c> Uma jovem",
+      "triggers": []
+    },
+    {
+      "node_id": 9,
+      "evidence_video_id": "guo_aoRzfTY",
+      "url": "https://www.youtube.com/shorts/guo_aoRzfTY",
+      "title": "CRIME DA RUA CUBA: o mistério que a Justiça nunca resolveu 🔍 #CrimeDaRuaCuba #CasoReal #shorts",
+      "niche": "casos_policiais",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt desde<00:00:04.680><c> os</c><00:00:04.880><c> tempos</c><00:00:05.319><c> coloniais</c><00:00:06.000><c> até</c><00:00:06.279><c> os</c><00:00:06.520><c> dias</c> desde os tempos coloniais",
+      "triggers": []
+    },
+    {
+      "node_id": 10,
+      "evidence_video_id": "HSMdXUkJqbA",
+      "url": "https://www.youtube.com/shorts/HSMdXUkJqbA",
+      "title": "Piadas Imbatíveis Vão Acabar com a Sua Seriedade😂#comedia #humor",
+      "niche": "humor",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt A<00:00:00.199><c> senhora</c><00:00:00.440><c> ajuda</c><00:00:00.719><c> os</c><00:00:00.880><c> outros?</c> A senhora ajuda os outros? A",
+      "triggers": []
+    },
+    {
+      "node_id": 11,
+      "evidence_video_id": "Jkil7hd_nVc",
+      "url": "https://www.youtube.com/shorts/Jkil7hd_nVc",
+      "title": "CASAIS PERIGOSOS 😈 | FT.RAPHAEL GHANEM STAND-UP COMEDY",
+      "niche": "humor",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Qual<00:00:00.240><c> que</c><00:00:00.359><c> é</c><00:00:00.440><c> o</c><00:00:00.560><c> segredo</c><00:00:00.960><c> para</c><00:00:01.160><c> tá</c><00:00:01.360><c> tanto</c><00:00:01.640><c> tempo</c> Qual que",
+      "triggers": [
+        "curiosidade_revelacao"
+      ]
+    },
+    {
+      "node_id": 12,
+      "evidence_video_id": "jvKOVpZq340",
+      "url": "https://www.youtube.com/shorts/jvKOVpZq340",
+      "title": "IVANGÉLICA Ela NÃO deixou barato… 😂 SHOW DE STANDUP COMEDY",
+      "niche": "humor",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Boa<00:00:02.160><c> noite,</c><00:00:02.520><c> calor.</c> Boa noite, calor. Boa noite, calor. Galera<00:00:05.320><c> animada.</c>",
+      "triggers": []
+    },
+    {
+      "node_id": 13,
+      "evidence_video_id": "olOK1vgIklI",
+      "url": "https://www.youtube.com/shorts/olOK1vgIklI",
+      "title": "VÍDEOS ENGRAÇADOS 2026 😂🤣 TENTE NÃO RIR MEMES 😂 - #85",
+      "niche": "humor",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt 2025<00:00:01.240><c> foi</c><00:00:01.480><c> um</c><00:00:01.640><c> ano</c><00:00:01.880><c> cheio</c><00:00:02.200><c> de</c><00:00:02.360><c> emoções,</c><00:00:03.240><c> tanto</c> 2025 foi um",
+      "triggers": []
+    },
+    {
+      "node_id": 14,
+      "evidence_video_id": "R2QNQHkPBCk",
+      "url": "https://www.youtube.com/shorts/R2QNQHkPBCk",
+      "title": "10 MINUTOS DE CURIOSIDADES E FATOS RAPIDOS ⚡️🤯 | #01 COMPILAÇÃO SHORTS",
+      "niche": "curiosidades",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt [risadas] [risadas] [música] [música] &gt;&gt; Não<00:00:18.700><c> é</c><00:00:18.700><c> possível,</c><00:00:19.500><c> maluco.</c><00:00:20.300><c> Não</c><00:00:20.400><c> é</c><00:00:20.400><c>",
+      "triggers": []
+    },
+    {
+      "node_id": 15,
+      "evidence_video_id": "YZoTa4bNhco",
+      "url": "https://www.youtube.com/shorts/YZoTa4bNhco",
+      "title": "🧠 5 Curiosidades Sobre o Cérebro Humano Que Parecem Mentira",
+      "niche": "curiosidades",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Já<00:00:00.359><c> imaginou</c><00:00:00.840><c> acordar</c><00:00:01.240><c> um</c><00:00:01.400><c> dia</c><00:00:01.640><c> e</c><00:00:01.839><c> perceber</c> Já imaginou acordar um",
+      "triggers": []
+    },
+    {
+      "node_id": 16,
+      "evidence_video_id": "EzCvDiPfInM",
+      "url": "https://www.youtube.com/shorts/EzCvDiPfInM",
+      "title": "VOCÊ NUNCA VIU A VERDADEIRA ESCURIDÃO! 😱👁️ #shorts #curiosidades #ciencia #fatoscuriosos",
+      "niche": "curiosidades",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Quando<00:00:00.400><c> você</c><00:00:00.700><c> fecha</c><00:00:01.000><c> os</c><00:00:01.100><c> olhos,</c><00:00:01.600><c> acha</c><00:00:01.900><c> que</c> Quando você fecha os",
+      "triggers": []
+    },
+    {
+      "node_id": 17,
+      "evidence_video_id": "o4DwTFHPUss",
+      "url": "https://www.youtube.com/shorts/o4DwTFHPUss",
+      "title": "Por Que Seu Cérebro Odeia Começar? A Regra dos 2 Minutos",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt Você<00:00:00.320><c> já</c><00:00:00.440><c> sentiu</c><00:00:00.960><c> que</c><00:00:01.080><c> tem</c><00:00:01.360><c> grandes</c><00:00:01.880><c> sonhos,</c> Você já sentiu que",
+      "triggers": []
+    },
+    {
+      "node_id": 18,
+      "evidence_video_id": "EpbVKotl0iw",
+      "url": "https://www.youtube.com/shorts/EpbVKotl0iw",
+      "title": "FAÇA O QUE TEM QUE SER FEITO | Trabalho duro supera o talento | Mente forte",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt homens<00:00:02.520><c> criam</c><00:00:03.000><c> hábitos</c> homens criam hábitos homens criam hábitos hábitos<00:00:05.520><c> criam</c><00:00:05.940><c>",
+      "triggers": []
+    },
+    {
+      "node_id": 19,
+      "evidence_video_id": "3m65klh7uPU",
+      "url": "https://www.youtube.com/shorts/3m65klh7uPU",
+      "title": "5 Dicas Incríveis Sobre Gestão de Tempo para Desenvolvedores (Produtividade / Foco / Disciplina)",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt-BR Fala Dev. Quando temos horas e horas&nbsp; de código pela frente",
+      "triggers": []
+    },
+    {
+      "node_id": 20,
+      "evidence_video_id": "PWkNNqBF30w",
+      "url": "https://www.youtube.com/shorts/PWkNNqBF30w",
+      "title": "COMO ESTUDAR E TRABALHAR SEM PERDER O FOCO | MUZY CORTES",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "PADRÃO",
+      "analysis_depth": "PARTIAL_NARRATIVE",
+      "hook": "Kind: captions Language: pt fala<00:00:00.539><c> Dev</c><00:00:01.079><c> quando</c><00:00:01.260><c> temos</c><00:00:01.560><c> horas</c><00:00:01.920><c> e</c><00:00:02.159><c> horas</c><00:00:02.280><c> de</c> fala Dev quando",
+      "triggers": []
+    },
+    {
+      "node_id": 21,
+      "evidence_video_id": "Jdd0OrzByJc",
+      "url": "https://www.youtube.com/shorts/Jdd0OrzByJc",
+      "title": "FOI FALTA OU SEGUE O JOGO?! 😱⚽ Lance polêmico em Bazuca x Marques! #Shorts",
+      "niche": "futebol_outros",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 23,
+      "evidence_video_id": "y021RWEXvRc",
+      "url": "https://www.youtube.com/shorts/y021RWEXvRc",
+      "title": "Real Madrid vs Champions: O gol que calou o mundo!",
+      "niche": "futebol_outros",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 24,
+      "evidence_video_id": "K_lRs6MieJU",
+      "url": "https://www.youtube.com/shorts/K_lRs6MieJU",
+      "title": "Arte do Drible -  Jogadas INCRÍVEIS #1 #futebol #football #brasil #dribles #shorts",
+      "niche": "futebol_outros",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 26,
+      "evidence_video_id": "Oy5m1qwhlv8",
+      "url": "https://www.youtube.com/shorts/Oy5m1qwhlv8",
+      "title": "SHORT JEANS Cintura Baixa. Os Melhores & mais Lindos SHORTS JEANS!  #jeans #shortsjeans",
+      "niche": "casos_policiais",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 27,
+      "evidence_video_id": "ucB3VIPIFmg",
+      "url": "https://www.youtube.com/shorts/ucB3VIPIFmg",
+      "title": "Pegadinha do elevador dance part 5 #viralvideo #humor",
+      "niche": "humor",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 29,
+      "evidence_video_id": "wKuMkUMv_z0",
+      "url": "https://www.youtube.com/shorts/wKuMkUMv_z0",
+      "title": "Pitibu ou Dono? A Guerra da Coxinha 😂🐶 #animaisengraçados #humor #shortsbrasil #shortsviral",
+      "niche": "humor",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 30,
+      "evidence_video_id": "uAHpb9LEano",
+      "url": "https://www.youtube.com/shorts/uAHpb9LEano",
+      "title": "Caramelo recebeu Carinho da Vovó #humor #comedia #memes #viral #shorts #engraçado #viralvideo",
+      "niche": "humor",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 31,
+      "evidence_video_id": "rQdnWSJMABY",
+      "url": "https://www.youtube.com/shorts/rQdnWSJMABY",
+      "title": "Curiosidades de Ciências",
+      "niche": "curiosidades",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 32,
+      "evidence_video_id": "2ZgeblAgr5g",
+      "url": "https://www.youtube.com/shorts/2ZgeblAgr5g",
+      "title": "Fato em Pauta: ciência, natureza e curiosidades em movimento 🌎",
+      "niche": "curiosidades",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 34,
+      "evidence_video_id": "Cj7aHpWyavs",
+      "url": "https://www.youtube.com/shorts/Cj7aHpWyavs",
+      "title": "Disciplina",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 35,
+      "evidence_video_id": "hbnVOPtNWhg",
+      "url": "https://www.youtube.com/shorts/hbnVOPtNWhg",
+      "title": "Disciplina vence motivação !!",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 37,
+      "evidence_video_id": "cKTwGWKweuY",
+      "url": "https://www.youtube.com/shorts/cKTwGWKweuY",
+      "title": "Disciplinafazmilionário #motivacao#dinheiro#riqueza#disciplina#milionario#coach#shorts#motivacional",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    },
+    {
+      "node_id": 39,
+      "evidence_video_id": "PRJEgHR-8sw",
+      "url": "https://www.youtube.com/shorts/PRJEgHR-8sw",
+      "title": "Um suspeito preso: Tribunal do crime filma execução de mototaxista",
+      "niche": "casos_policiais",
+      "classification": "OBSERVAÇÃO",
+      "analysis_depth": "PRELIMINARY_METADATA_ONLY",
+      "hook": null,
+      "triggers": []
+    }
+  ],
+  "evidence_based_patterns": [
+    {
+      "node_id": 22,
+      "evidence_video_id": "m5thL61AyDg",
+      "url": "https://www.youtube.com/shorts/m5thL61AyDg",
+      "title": "LANCE POLEMICO DO GOL DO PALMEIRAS CONTRA O MIRASSOL",
+      "niche": "futebol_outros",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: pt Olha<00:00:00.880><c> o</c><00:00:01.000><c> cruzamento,</c><00:00:01.560><c> bola</c><00:00:01.839><c> pra</c><00:00:02.080><c> área,</c><00:00:02.480><c> Walter</c> Olha o cruzamento, bola",
+      "triggers": []
+    },
+    {
+      "node_id": 25,
+      "evidence_video_id": "Dx3ici6vMuI",
+      "url": "https://www.youtube.com/shorts/Dx3ici6vMuI",
+      "title": "Mistérios sem explicação #3 - Círculos da Namíbia",
+      "niche": "casos_policiais",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: pt Você<00:00:00.539><c> já</c><00:00:00.719><c> ouviu</c><00:00:00.840><c> falar</c><00:00:00.960><c> dos</c><00:00:01.260><c> misteriosos</c> Você já ouviu falar dos",
+      "triggers": []
+    },
+    {
+      "node_id": 28,
+      "evidence_video_id": "LJAxRPjbEws",
+      "url": "https://www.youtube.com/shorts/LJAxRPjbEws",
+      "title": "UM CLIENTE MUITO IGNORANTE.#humor#comedia#pegadinha#trolagem#piadas",
+      "niche": "humor",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: en [Music] [Music] [Music] people [Music] [Music] [Music] I <00:00:13.056><c>have </c><00:00:13.372><c>Good </c><00:00:13.688><c>afternoon,",
+      "triggers": []
+    },
+    {
+      "node_id": 33,
+      "evidence_video_id": "FXLLXA11jmo",
+      "url": "https://www.youtube.com/shorts/FXLLXA11jmo",
+      "title": "\"5 Curiosidades INCRÍVEIS que Você NUNCA Imaginou!\" #shorts #brasil #curiosidades #viral",
+      "niche": "curiosidades",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: pt Você<00:00:01.680><c> conhece</c><00:00:01.920><c> o</c><00:00:02.340><c> efeito</c><00:00:02.460><c> do</c><00:00:02.700><c> nicruder</c><00:00:03.240><c> e</c><00:00:04.080><c> um</c> Você conhece o",
+      "triggers": []
+    },
+    {
+      "node_id": 36,
+      "evidence_video_id": "dNS8AoqSwtU",
+      "url": "https://www.youtube.com/shorts/dNS8AoqSwtU",
+      "title": "O dia que vai mudar sua vida! #motivacao #disciplina #desenvolvimentopessoal #foco #shorts",
+      "niche": "desenvolvimento_pessoal",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: pt O<00:00:00.200><c> dia</c><00:00:00.480><c> que</c><00:00:00.600><c> vai</c><00:00:00.800><c> mudar</c><00:00:01.160><c> a</c><00:00:01.200><c> sua</c><00:00:01.520><c> vida,</c> O dia que",
+      "triggers": []
+    },
+    {
+      "node_id": 38,
+      "evidence_video_id": "ppIwQp5GKo0",
+      "url": "https://www.youtube.com/shorts/ppIwQp5GKo0",
+      "title": "#bandido luz vermelha #shorts #truestory #crime #mistério #historiareal #terror #curiosidades #medo",
+      "niche": "casos_policiais",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: pt E<00:00:00.160><c> se</c><00:00:00.320><c> você</c><00:00:00.560><c> acordasse</c><00:00:01.800><c> e</c><00:00:02.040><c> visse</c><00:00:02.280><c> uma</c><00:00:02.440><c> luz</c> E se você",
+      "triggers": []
+    },
+    {
+      "node_id": 40,
+      "evidence_video_id": "lTpfw2naYgo",
+      "url": "https://www.youtube.com/shorts/lTpfw2naYgo",
+      "title": "Efeito Borboleta_ Sanduíche Fatal #curiosidades #fatos",
+      "niche": "curiosidades",
+      "classification": "APRENDIZADO_VALIDADO",
+      "analysis_depth": "FULL_MULTIMODAL",
+      "hook": "Kind: captions Language: pt O<00:00:00.440><c> efeito</c><00:00:00.840><c> borboleta</c><00:00:01.400><c> é</c><00:00:01.560><c> a</c><00:00:01.640><c> ideia</c><00:00:01.920><c> de</c><00:00:02.080><c> que</c><00:00:02.240><c> um</c> O efeito",
+      "triggers": []
+    }
+  ]
 }

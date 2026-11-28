@@ -1,0 +1,8 @@
+{
+  "total_packages": 10,
+  "approved_for_production_count": 0,
+  "ready_for_review_count": 10,
+  "pilot_rendered_count": 0,
+  "gate_status": "AWAITING_HUMAN_APPROVAL_AND_ASSETS",
+  "note": "Nenhum pacote alterado automaticamente para APPROVED_FOR_PRODUCTION; renderização de produção aguarda aprovação humana no dashboard e seleção de ativos para cenas ASSET_NEEDED."
+}

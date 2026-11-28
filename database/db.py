@@ -1,31 +1,42 @@
 """
-Camada de Gerenciamento do Banco de Dados Relacional (SQLite / PostgreSQL ready).
+Camada de Gerenciamento do Banco de Dados Relacional (SQLite WAL / PostgreSQL ready).
+Suporte a 20 canais com particionamento, integridade referencial e migrações automáticas.
 """
 import sqlite3
 import json
+import sys
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
 DB_PATH = BASE_DIR / "database/shorts_central.db"
 SCHEMA_PATH = BASE_DIR / "database/schema.sql"
 
-def get_db_connection() -> sqlite3.Connection:
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(str(DB_PATH))
+def get_db_connection(db_file: Optional[Path] = None) -> sqlite3.Connection:
+    target = db_file or DB_PATH
+    target.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(str(target))
+    conn.execute("PRAGMA journal_mode=WAL;")
+    conn.execute("PRAGMA foreign_keys=ON;")
     conn.row_factory = sqlite3.Row
     return conn
 
-def init_db():
-    """Inicializa as tabelas e pré-popula categorias e os 20 canais se vazios."""
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with get_db_connection() as conn:
-        with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
-            conn.executescript(f.read())
+def init_db(db_file: Optional[Path] = None):
+    """Inicializa as tabelas consolidadas e popula categorias e os 20 canais se vazios."""
+    target = db_file or DB_PATH
+    target.parent.mkdir(parents=True, exist_ok=True)
+    
+    # 1. Executa o migrador consolidado
+    from database.migrate import run_migrations
+    run_migrations(target)
 
+    with get_db_connection(target) as conn:
         cursor = conn.cursor()
         
-        # 1. Categorias Iniciais Obrigatórias
+        # 2. Categorias Iniciais Obrigatórias (15 Categorias)
         cursor.execute("SELECT COUNT(*) FROM categories")
         if cursor.fetchone()[0] == 0:
             initial_categories = [
@@ -50,7 +61,7 @@ def init_db():
                 initial_categories
             )
 
-        # 2. Inicialização dos 20 Canais se não existirem
+        # 3. Inicialização dos 20 Canais se não existirem
         cursor.execute("SELECT COUNT(*) FROM channels")
         if cursor.fetchone()[0] == 0:
             initial_channels = []
@@ -76,8 +87,20 @@ def init_db():
                 ("Games & Esports", "entretenimento", "Jogadas inacreditáveis e novidades de games"),
                 ("História Que Não Te Contaram", "educacional", "Curiosidades históricas pouco conhecidas")
             ]
+            
+            # Carrega mapeamento de pastas do Google Drive se disponível
+            gdrive_map_file = BASE_DIR / "config/gdrive_folders.json"
+            gdrive_map = {}
+            if gdrive_map_file.exists():
+                try:
+                    with open(gdrive_map_file, "r", encoding="utf-8") as gf:
+                        gdrive_map = json.load(gf)
+                except Exception:
+                    pass
+
             for num in range(1, 21):
                 name, niche, strategy = niches[num - 1]
+                gdrive_folder = gdrive_map.get(f"canal_{num:02d}", "")
                 initial_channels.append((
                     num,
                     f"Canal {num:02d} - {name}",
@@ -85,20 +108,22 @@ def init_db():
                     strategy,
                     "Jovens e adultos (18-35)",
                     "pt-BR",
+                    "BR",
                     "Cores vivas e modernas",
                     "Dinâmico 9:16 com legendas destacadas",
                     "Energético e envolvente",
                     "2_por_dia",
                     "Crescimento orgânico e retenção",
-                    f"Estratégia editorial focada em {niche.lower()}"
+                    f"Estratégia editorial focada em {niche.lower()}",
+                    gdrive_folder
                 ))
 
             cursor.executemany("""
                 INSERT INTO channels (
                     channel_number, name, niche, subniche, target_audience,
-                    language, visual_identity, editing_style, communication_tone,
-                    posting_frequency, goals, editorial_strategy
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    language, country, visual_identity, editing_style, communication_tone,
+                    posting_frequency, goals, editorial_strategy, gdrive_folder_id
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, initial_channels)
 
         conn.commit()

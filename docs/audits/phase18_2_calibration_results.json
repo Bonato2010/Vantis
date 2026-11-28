@@ -1,0 +1,280 @@
+{
+  "leak_free": true,
+  "validated_rules_by_channel": {
+    "2": [
+      "ritmo_de_cortes_dinamico"
+    ],
+    "5": [
+      "estrutura_narrativa_real",
+      "gancho_inicial_forte",
+      "progressao_narrativa_completa"
+    ],
+    "3": [
+      "progressao_narrativa_completa"
+    ]
+  },
+  "validation_split": {
+    "n": 37,
+    "baseline": {
+      "tp": 16,
+      "fp": 15,
+      "fn": 2,
+      "tn": 4,
+      "precision_pct": 51.6,
+      "recall_pct": 88.9,
+      "anti_patterns_blocked": 0,
+      "channel_specific_recommendations": 0,
+      "decisions_explained": 0,
+      "per_channel": {
+        "1": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 1,
+          "tn": 0
+        },
+        "2": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 1,
+          "tn": 1
+        },
+        "3": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 0,
+          "tn": 0
+        },
+        "4": {
+          "tp": 4,
+          "fp": 2,
+          "fn": 0,
+          "tn": 2
+        },
+        "5": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 0,
+          "tn": 1
+        }
+      }
+    },
+    "pre_calibration": {
+      "tp": 7,
+      "fp": 9,
+      "fn": 11,
+      "tn": 10,
+      "precision_pct": 43.8,
+      "recall_pct": 38.9,
+      "anti_patterns_blocked": 0,
+      "channel_specific_recommendations": 21,
+      "decisions_explained": 21,
+      "per_channel": {
+        "1": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 3,
+          "tn": 3
+        },
+        "2": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 2,
+          "tn": 1
+        },
+        "3": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 2,
+          "tn": 2
+        },
+        "4": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 3,
+          "tn": 4
+        },
+        "5": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 1,
+          "tn": 0
+        }
+      }
+    },
+    "calibrated": {
+      "tp": 12,
+      "fp": 16,
+      "fn": 6,
+      "tn": 3,
+      "precision_pct": 42.9,
+      "recall_pct": 66.7,
+      "anti_patterns_blocked": 0,
+      "channel_specific_recommendations": 21,
+      "decisions_explained": 37,
+      "per_channel": {
+        "1": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 1,
+          "tn": 0
+        },
+        "2": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 2,
+          "tn": 1
+        },
+        "3": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 2,
+          "tn": 2
+        },
+        "4": {
+          "tp": 4,
+          "fp": 4,
+          "fn": 0,
+          "tn": 0
+        },
+        "5": {
+          "tp": 2,
+          "fp": 4,
+          "fn": 1,
+          "tn": 0
+        }
+      }
+    }
+  },
+  "test_split": {
+    "n": 34,
+    "baseline": {
+      "tp": 11,
+      "fp": 15,
+      "fn": 4,
+      "tn": 4,
+      "precision_pct": 42.3,
+      "recall_pct": 73.3,
+      "anti_patterns_blocked": 0,
+      "channel_specific_recommendations": 0,
+      "decisions_explained": 0,
+      "per_channel": {
+        "1": {
+          "tp": 3,
+          "fp": 2,
+          "fn": 0,
+          "tn": 2
+        },
+        "2": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 1,
+          "tn": 1
+        },
+        "3": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 1,
+          "tn": 0
+        },
+        "4": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 0,
+          "tn": 0
+        },
+        "5": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 2,
+          "tn": 1
+        }
+      }
+    },
+    "pre_calibration": {
+      "tp": 8,
+      "fp": 7,
+      "fn": 7,
+      "tn": 12,
+      "precision_pct": 53.3,
+      "recall_pct": 53.3,
+      "anti_patterns_blocked": 1,
+      "channel_specific_recommendations": 20,
+      "decisions_explained": 20,
+      "per_channel": {
+        "1": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 1,
+          "tn": 4
+        },
+        "2": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "tn": 2
+        },
+        "3": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 2,
+          "tn": 3
+        },
+        "4": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 2,
+          "tn": 1
+        },
+        "5": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "tn": 2
+        }
+      }
+    },
+    "calibrated": {
+      "tp": 11,
+      "fp": 11,
+      "fn": 4,
+      "tn": 8,
+      "precision_pct": 50.0,
+      "recall_pct": 73.3,
+      "anti_patterns_blocked": 1,
+      "channel_specific_recommendations": 20,
+      "decisions_explained": 33,
+      "per_channel": {
+        "1": {
+          "tp": 3,
+          "fp": 3,
+          "fn": 0,
+          "tn": 1
+        },
+        "2": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "tn": 2
+        },
+        "3": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 2,
+          "tn": 3
+        },
+        "4": {
+          "tp": 3,
+          "fp": 4,
+          "fn": 0,
+          "tn": 0
+        },
+        "5": {
+          "tp": 2,
+          "fp": 2,
+          "fn": 1,
+          "tn": 2
+        }
+      }
+    }
+  }
+}

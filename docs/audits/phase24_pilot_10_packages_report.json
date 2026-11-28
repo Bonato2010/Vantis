@@ -1,0 +1,382 @@
+[
+  {
+    "package_id": 1,
+    "channel_id": 1,
+    "channel_name": "Canal 01 - Futebol em 60 Segundos",
+    "theme": "A regra esquecida do impedimento que decidiu uma semifinal",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "IFAB Laws of the Game — Law 11 (Offside)"
+      ]
+    }
+  },
+  {
+    "package_id": 2,
+    "channel_id": 1,
+    "channel_name": "Canal 01 - Futebol em 60 Segundos",
+    "theme": "Por que goleiros mudaram o posicionamento nos pênaltis modernos",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "IFAB Laws of the Game — Law 14 (The Penalty Kick)"
+      ]
+    }
+  },
+  {
+    "package_id": 3,
+    "channel_id": 2,
+    "channel_name": "Canal 02 - Arquivo Sombrio (Casos Reais)",
+    "theme": "O detalhe cronológico que revelou a contradição de um álibi real",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Princípios de cronologia forense e cadeia de custódia digital"
+      ]
+    }
+  },
+  {
+    "package_id": 4,
+    "channel_id": 2,
+    "channel_name": "Canal 02 - Arquivo Sombrio (Casos Reais)",
+    "theme": "Como a perícia de vestígios resolveu um caso arquivado há décadas",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Manual de Cadeia de Custódia e Genética Forense"
+      ]
+    }
+  },
+  {
+    "package_id": 5,
+    "channel_id": 3,
+    "channel_name": "Canal 03 - Rir para Não Chorar",
+    "theme": "Quando a reunião online de segunda-feira dura mais que o projeto",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Observação de humor cotidiano corporativo (roteiro original)"
+      ]
+    }
+  },
+  {
+    "package_id": 6,
+    "channel_id": 3,
+    "channel_name": "Canal 03 - Rir para Não Chorar",
+    "theme": "A diferença entre o que você planejou no domingo e a realidade da terça",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Observação de humor cotidiano (roteiro original)"
+      ]
+    }
+  },
+  {
+    "package_id": 7,
+    "channel_id": 4,
+    "channel_name": "Canal 04 - Mente Curiosa & Ciência",
+    "theme": "Por que o céu noturno é escuro mesmo com bilhões de estrelas",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "NASA / ESA — Cosmologia observacional e Paradoxo de Olbers"
+      ]
+    }
+  },
+  {
+    "package_id": 8,
+    "channel_id": 4,
+    "channel_name": "Canal 04 - Mente Curiosa & Ciência",
+    "theme": "Como o cérebro preenche pontos cegos sem você perceber",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Neurociência visual — anatomia do disco óptico e preenchimento perceptual"
+      ]
+    }
+  },
+  {
+    "package_id": 9,
+    "channel_id": 5,
+    "channel_name": "Canal 05 - Mente Focada & Produtividade",
+    "theme": "A armadilha dos micro-objetivos que destrói seu bloco de foco",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Princípios práticos de gestão de atenção e redução de custo de troca de contexto"
+      ]
+    }
+  },
+  {
+    "package_id": 10,
+    "channel_id": 5,
+    "channel_name": "Canal 05 - Mente Focada & Produtividade",
+    "theme": "Como usar blocos de 25 minutos sem cair em fadiga decisória",
+    "status": "READY_FOR_REVIEW",
+    "before": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ]
+    },
+    "after": {
+      "classification": "ASSETS_INCOMPLETE",
+      "quality_score": 88.9,
+      "checks": {
+        "complete_script_no_none": true,
+        "no_placeholders": true,
+        "no_accidental_repetitions": true,
+        "script_scene_coherence": true,
+        "duration_compatible": true,
+        "sources_verified_when_required": true,
+        "all_assets_assigned": false,
+        "usage_rights_verified": true,
+        "channel_isolation_and_fit": true
+      },
+      "failures": [],
+      "warnings": [
+        "6 cena(s) ainda aguardando mídia verificável (ASSET_NEEDED): [1, 2, 3, 4, 5, 6]."
+      ],
+      "pending_assets_count": 6,
+      "sources": [
+        "Técnica Pomodoro combinada com preparação prévia de tarefa única"
+      ]
+    }
+  }
+]

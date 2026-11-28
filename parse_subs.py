@@ -1,6 +1,16 @@
 import json
+from pathlib import Path
 
-with open('C:/Users/jcvse/podcast_cutter/workspace/subs/8TpjD8D9tIo.pt.json3', encoding='utf-8') as f:
+BASE_DIR = Path(__file__).resolve().parent
+subs_dir = BASE_DIR / "workspace" / "subs"
+input_file = subs_dir / "8TpjD8D9tIo.pt.json3"
+output_file = subs_dir / "clean_transcript.json"
+
+if not input_file.exists():
+    print(f"[parse_subs] Arquivo de legenda não encontrado: {input_file}")
+    exit(0)
+
+with open(input_file, encoding='utf-8') as f:
     data = json.load(f)
 
 parsed_segments = []
@@ -30,5 +40,6 @@ for s in parsed_segments[50:60]:
     print(f"[{s['start']}s - {s['end']}s]: {s['text']}")
 
 # Salvar formato simplificado
-with open('C:/Users/jcvse/podcast_cutter/workspace/subs/clean_transcript.json', 'w', encoding='utf-8') as f:
+output_file.parent.mkdir(parents=True, exist_ok=True)
+with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(parsed_segments, f, ensure_ascii=False, indent=2)

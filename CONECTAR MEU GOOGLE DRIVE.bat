@@ -4,7 +4,7 @@ echo =====================================================================
 echo    CONECTANDO O SEU GOOGLE DRIVE DE 5 TB A CENTRAL SHORTS
 echo =====================================================================
 echo.
-cd /d "C:\Users\jcvse\OneDrive\Desktop\Daniel\CENTRAL SHORTS"
+cd /d "%~dp0"
 echo Diretorio atual: %CD%
 echo.
 echo Iniciando autenticacao...

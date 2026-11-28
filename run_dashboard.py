@@ -6,15 +6,17 @@ import sys
 import uvicorn
 from pathlib import Path
 
-# Adiciona o diretório do projeto ao sys.path
-sys.path.insert(0, str(Path(__file__).parent))
+BASE_DIR = Path(__file__).resolve().parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 
 if __name__ == "__main__":
+    db_path = BASE_DIR / "database/shorts_central.db"
     print("=" * 65)
     print("   CENTRAL INTELIGENTE DE YOUTUBE SHORTS (20 CANAIS & DRIVE 5TB)   ")
     print("=" * 65)
     print(" -> Dashboard Web: http://127.0.0.1:8000")
     print(" -> Documentação Interativa da API: http://127.0.0.1:8000/docs")
-    print(" -> Banco Relacional: C:/Users/jcvse/podcast_cutter/database/shorts_central.db")
+    print(f" -> Banco Relacional: {db_path}")
     print("=" * 65)
     uvicorn.run("web.app:app", host="127.0.0.1", port=8000, reload=False)
