@@ -27,8 +27,9 @@ Para conectar o seu Google Drive de 5 TB à Central Inteligente de Shorts, siga 
 2. Clique em **Criar Credenciais > ID do cliente OAuth**.
 3. Tipo de aplicativo: selecione **Aplicativo para Computador** (*Desktop App*).
 4. Clique em **Criar** e depois em **Baixar JSON**.
-5. Salve o arquivo baixado com o nome exato:  
-   `C:\Users\jcvse\podcast_cutter\credentials\gdrive_credentials.json`
+5. Salve o arquivo baixado com o nome exato na pasta do projeto:  
+   `credentials/gdrive_credentials.json`  
+   *(Exemplo: `<diretório_do_vantis>\credentials\gdrive_credentials.json`)*
 
 ---
 
